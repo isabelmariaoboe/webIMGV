@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="icon" type="image/png" href="picturesIMGV/logoIMGV.png">
+	<title>My Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="cssLayouts.css">
+	</head>
+
+	<body>
+		
+		<img class="mySlides" src="picturesIMGV/slide1.png" alt = Background IMGV>
+		<img class="mySlides" src="picturesIMGV/slide2.png" alt = Background IMGV>
+		<img class="mySlides" src="picturesIMGV/slide3.png" alt = Background IMGV>
+		<img class="mySlides" src="picturesIMGV/slide4.png" alt = Background IMGV>
+
+		<br>
+
+		<nav>
+			<ul>
+				<li><a href="myPortfolio.html" style="font-family: courier">My Portfolio</a></li>
+				<li><a href="work.html" style="font-family: courier">Work</a></li>
+				<li><a href="contact.html" style="font-family: courier">Contact</a></li>
+				<li><a href="about.html" style="font-family: courier">About</a></li>
+			</ul>
+		</nav>
+		<br><br>
+		
+		<img src="picturesIMGV/motto.png" alt = Motto>
+		<br><br><br><br>
+		<img class= "review" src="picturesIMGV/review.png" alt = Review>
+		<br><br><br><br>
+		<a href="contact.html" style="font-family: courier">Let's collaborate!</a>
+		<br><br>
+
+		<script type="text/javascript">
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+  				showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length} ;
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";
+			  }
+			  x[slideIndex-1].style.display = "block";
+			}
+
+			var slideIndex = 0;
+			carousel();
+
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < x.length; i++) {
+			    x[i].style.display = "none";
+			  }
+			  slideIndex++;
+			  if (slideIndex > x.length) {slideIndex = 1}
+			  x[slideIndex-1].style.display = "block";
+			  setTimeout(carousel, 3000);
+			}
+
+
+			
+		</script>
+
+		<footer class="footer">
+	&copy <span style="font-family: Courier">2020 Guner-Velasco DMS</span>
+	</footer>
+		
+	</body>
+	</html>

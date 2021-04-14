@@ -1,0 +1,111 @@
+body {
+  background: #f0efec;
+}
+
+h1 {
+  margin: 0;
+  background: #d6beb7;
+  color: #f0efec;
+  padding: 70px 15px .1px 15px;
+  text-align: center;
+}
+
+h1 .Contact {
+  margin: 0;
+  background: #f0efec;
+  color: #d6beb7;
+  text-align: center;
+}
+
+
+img {
+  width: 100%;
+}
+
+#banner {
+  width: 50%;
+}
+
+nav ul li {
+  align-items: center;
+}
+
+ul li {
+  background: #d6beb7;
+  color: #f0efec;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 8%;
+  margin-right: 1%;
+  border-radius: 5px;
+}
+
+
+
+.review img {
+  width: 25%
+}
+
+
+
+table span {
+  color: #435234;
+}
+
+table .MD {
+  width: 50%;
+  
+}
+
+.works {
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.works td, .works th {
+  border: 1px solid #d6beb7;
+  padding: 8px;
+}
+
+
+.works th {
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+  background-color: #d6beb7;
+  color: white;
+}
+
+
+.footer {
+  color: #d6beb7;
+}
+
+iframe {
+  text-align: center;
+}
+
+div img {
+  width: 20%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+figcaption {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
